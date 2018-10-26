@@ -1,0 +1,32 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wangcylive/unit-testing.git"
+  },
+  "author": "wangchunyang1 <wangchunyang1@yy.com>",
+  "license": "MIT",
+  "description": "unit testing",
+  "bugs": {
+    "url": "https://github.com/wangcylive/unit-testing/issues"
+  },
+  "homepage": "https://github.com/wangcylive/unit-testing#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-core": "^3.2.1",
+    "jest": "^23.6.0",
+    "karma": "^3.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-jasmine": "^1.1.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "jestinit": "jest --init"
+  }
+}
