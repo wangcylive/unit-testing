@@ -1,4 +1,4 @@
-const isDouble = require('./a.js')
+import isDouble from '../../src/views/a.js'
 
 test('isDouble', () => {
   expect(isDouble(10)).toBe(true)
