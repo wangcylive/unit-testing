@@ -1,4 +1,4 @@
-import isDouble from '../../src/views/a.js'
+import isDouble from '@/views/a'
 
 test('isDouble', () => {
   expect(isDouble(10)).toBe(true)
