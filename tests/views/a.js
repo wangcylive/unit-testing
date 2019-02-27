@@ -101,6 +101,8 @@ test('promise', () => {
 })
 
 test('async', async () => {
+  expect.assertions(1)
+
   async function fetchData() {
     return {
       data: {
@@ -109,6 +111,8 @@ test('async', async () => {
     }
   }
 
-  const res = await fetchData()
-  expect(res.data.name).toBe('async')
+  // const res = await fetchData()
+  // expect(res.data.name).toBe('async')
+
+  await expect(fetchData()).resolves.toBe('async')
 })
