@@ -1,5 +1,1 @@
-const a = () => {
-  console.log('aaa')
-}
-
-a()
+import './es6/generator'
